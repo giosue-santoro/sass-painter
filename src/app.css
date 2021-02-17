@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .super-container {
@@ -12,44 +13,38 @@
 header {
   background-color: #000;
 }
+
 header .upper-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   height: 30px;
   width: 1200px;
   padding-top: 15px;
 }
+
 header .upper-header li {
   display: inline-block;
 }
+
 header .upper-header i {
   color: #2b6fc9;
   padding-right: 5px;
 }
+
 header .upper-header span {
   color: #969292;
   padding-right: 5px;
 }
-header .lower-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 80px;
-  width: 1200px;
-}
-header .lower-header ul {
-  width: 1200px;
-  display: flex;
-  justify-content: space-evenly;
-}
-header .lower-header ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 header .lower-header i {
   color: #969292;
 }
+
 header .lower-header span {
   color: #fff;
 }
+/*# sourceMappingURL=app.css.map */

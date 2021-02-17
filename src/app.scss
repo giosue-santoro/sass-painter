@@ -1,0 +1,64 @@
+@import "./variables";
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.super-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: $blackColor;
+
+  .upper-header {
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    width: 1200px;
+    padding-top: 15px;
+
+    li {
+      display: inline-block;
+    }
+    i {
+      color: rgb(43, 111, 201);
+      padding-right: 5px;
+    }
+    span {
+      color: $greyColor;
+      padding-right: 5px;
+    }
+  }
+
+  .lower-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 1200px;
+
+    ul {
+      width: 1200px;
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        @include flexCenter();
+      }
+    }
+    i {
+      color: $greyColor;
+    }
+    span {
+      color: $textColor;
+    }
+  }
+}
