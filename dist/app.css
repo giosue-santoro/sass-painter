@@ -149,3 +149,44 @@ header .lower-header span {
   list-style-type: none;
   font-size: 20px;
 }
+
+.background-top {
+  background-image: url(/images/intro-top.jpg?1f7e34477a91bf4120e91f82b124031e);
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background-top span {
+  font-size: 20px;
+}
+.background-top span h2 {
+  padding: 10px 0;
+}
+
+.background-2 {
+  background-image: url(/images/intro-bg.jpg?f4f8197d3b8919376b0e661a1150a0e1);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.background-3 {
+  background-image: url(/images/flow-icons-bg.png?5fd7ad79fe68eda33d559b4cf97a99e9);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-3 div {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+.background-3 img {
+  height: 250px;
+}
