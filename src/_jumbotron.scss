@@ -1,0 +1,98 @@
+.background {
+  height: 500px;
+  background-image: url("../img/hero-pe-8.jpg");
+
+  .jumbotron {
+    height: 500px;
+    position: relative;
+
+    .jumbo-list {
+      position: absolute;
+      left: 420px;
+      top: 100px;
+
+      h2 {
+        padding: 5px 0;
+        span {
+          font-style: italic;
+          color: rgb(168, 36, 168);
+          padding-right: 5px;
+        }
+      }
+
+      li {
+        list-style-type: none;
+        padding: 10px 0;
+        i {
+          color: $greyColor;
+        }
+      }
+
+      button {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid black;
+        cursor: pointer;
+        span {
+          padding: 15px;
+          i {
+            font-size: 20px;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+
+    .right-jumbo {
+      height: 450px;
+      width: 400px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: $blackColor;
+      img {
+        padding: 20px;
+        float: right;
+      }
+      span {
+        display: inline-block;
+        padding: 30px;
+        h2 {
+          color: $textColor;
+        }
+        p {
+          color: $greyColor;
+        }
+      }
+      button {
+        color: $textColor;
+        background-color: rgb(15, 105, 189);
+        padding: 20px;
+        width: 150px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.second-header {
+  height: 100px;
+  background-color: rgb(216, 209, 209);
+  @include flexCenter;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  li {
+    list-style-type: none;
+    font-size: 20px;
+  }
+}

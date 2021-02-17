@@ -100,9 +100,11 @@ header .lower-header span {
   padding-top: 5px;
 }
 .background .jumbotron .right-jumbo {
-  height: 500px;
+  height: 450px;
   width: 400px;
-  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background-color: #000;
 }
 .background .jumbotron .right-jumbo img {
@@ -129,4 +131,21 @@ header .lower-header span {
   cursor: pointer;
   display: block;
   margin-left: 20px;
+}
+
+.second-header {
+  height: 100px;
+  background-color: #d8d1d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.second-header li {
+  list-style-type: none;
+  font-size: 20px;
 }
