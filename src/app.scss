@@ -12,7 +12,7 @@
 
     .jumbo-list {
       position: absolute;
-      left: 500px;
+      left: 420px;
       top: 100px;
 
       h2 {
@@ -47,6 +47,38 @@
             padding-top: 5px;
           }
         }
+      }
+    }
+
+    .right-jumbo {
+      height: 500px;
+      width: 400px;
+      float: right;
+      background-color: $blackColor;
+      img {
+        padding: 20px;
+        float: right;
+      }
+      span {
+        display: inline-block;
+        padding: 30px;
+        h2 {
+          color: $textColor;
+        }
+        p {
+          color: $greyColor;
+        }
+      }
+      button {
+        color: $textColor;
+        background-color: rgb(15, 105, 189);
+        padding: 20px;
+        width: 150px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin-left: 20px;
       }
     }
   }

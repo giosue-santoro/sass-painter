@@ -65,7 +65,7 @@ header .lower-header span {
 }
 .background .jumbotron .jumbo-list {
   position: absolute;
-  left: 500px;
+  left: 420px;
   top: 100px;
 }
 .background .jumbotron .jumbo-list h2 {
@@ -98,4 +98,35 @@ header .lower-header span {
 .background .jumbotron .jumbo-list button span i {
   font-size: 20px;
   padding-top: 5px;
+}
+.background .jumbotron .right-jumbo {
+  height: 500px;
+  width: 400px;
+  float: right;
+  background-color: #000;
+}
+.background .jumbotron .right-jumbo img {
+  padding: 20px;
+  float: right;
+}
+.background .jumbotron .right-jumbo span {
+  display: inline-block;
+  padding: 30px;
+}
+.background .jumbotron .right-jumbo span h2 {
+  color: #fff;
+}
+.background .jumbotron .right-jumbo span p {
+  color: #969292;
+}
+.background .jumbotron .right-jumbo button {
+  color: #fff;
+  background-color: #0f69bd;
+  padding: 20px;
+  width: 150px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-left: 20px;
 }
