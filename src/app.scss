@@ -1,64 +1,53 @@
 @import "./variables";
-@mixin flexCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@import "./utilities";
+@import "./header";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+.background {
+  height: 500px;
+  background-image: url("../img/hero-pe-8.jpg");
 
-.super-container {
-  width: 1200px;
-  margin: 0 auto;
-}
+  .jumbotron {
+    height: 500px;
+    position: relative;
 
-header {
-  background-color: $blackColor;
+    .jumbo-list {
+      position: absolute;
+      left: 500px;
+      top: 100px;
 
-  .upper-header {
-    display: flex;
-    justify-content: flex-end;
-    height: 30px;
-    width: 1200px;
-    padding-top: 15px;
-
-    li {
-      display: inline-block;
-    }
-    i {
-      color: rgb(43, 111, 201);
-      padding-right: 5px;
-    }
-    span {
-      color: $greyColor;
-      padding-right: 5px;
-    }
-  }
-
-  .lower-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80px;
-    width: 1200px;
-
-    ul {
-      width: 1200px;
-      display: flex;
-      justify-content: space-evenly;
-      li {
-        @include flexCenter();
+      h2 {
+        padding: 5px 0;
+        span {
+          font-style: italic;
+          color: rgb(168, 36, 168);
+          padding-right: 5px;
+        }
       }
-    }
-    i {
-      color: $greyColor;
-    }
-    span {
-      color: $textColor;
+
+      li {
+        list-style-type: none;
+        padding: 10px 0;
+        i {
+          color: $greyColor;
+        }
+      }
+
+      button {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid black;
+        cursor: pointer;
+        span {
+          padding: 15px;
+          i {
+            font-size: 20px;
+            padding-top: 5px;
+          }
+        }
+      }
     }
   }
 }

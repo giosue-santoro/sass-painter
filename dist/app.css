@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .super-container {
@@ -52,4 +53,49 @@ header .lower-header i {
 }
 header .lower-header span {
   color: #fff;
+}
+
+.background {
+  height: 500px;
+  background-image: url(/images/hero-pe-8.jpg?d486eee833c2656d65df6a96b2e329b9);
+}
+.background .jumbotron {
+  height: 500px;
+  position: relative;
+}
+.background .jumbotron .jumbo-list {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+}
+.background .jumbotron .jumbo-list h2 {
+  padding: 5px 0;
+}
+.background .jumbotron .jumbo-list h2 span {
+  font-style: italic;
+  color: #a824a8;
+  padding-right: 5px;
+}
+.background .jumbotron .jumbo-list li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.background .jumbotron .jumbo-list li i {
+  color: #969292;
+}
+.background .jumbotron .jumbo-list button {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.background .jumbotron .jumbo-list button span {
+  padding: 15px;
+}
+.background .jumbotron .jumbo-list button span i {
+  font-size: 20px;
+  padding-top: 5px;
 }
