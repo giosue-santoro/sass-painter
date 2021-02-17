@@ -57,7 +57,7 @@ header .lower-header span {
 
 .background {
   height: 500px;
-  background-image: url(/images/hero-pe-8.jpg?d486eee833c2656d65df6a96b2e329b9);
+  background-image: url(../img/hero-pe-8.jpg?d486eee833c2656d65df6a96b2e329b9);
 }
 .background .jumbotron {
   height: 500px;
@@ -151,7 +151,7 @@ header .lower-header span {
 }
 
 .background-top {
-  background-image: url(/images/intro-top.jpg?1f7e34477a91bf4120e91f82b124031e);
+  background-image: url(../img/intro-top.jpg?1f7e34477a91bf4120e91f82b124031e);
   background-repeat: no-repeat;
   height: 250px;
   display: flex;
@@ -167,14 +167,14 @@ header .lower-header span {
 }
 
 .background-2 {
-  background-image: url(/images/intro-bg.jpg?f4f8197d3b8919376b0e661a1150a0e1);
+  background-image: url(../img/intro-bg.jpg?f4f8197d3b8919376b0e661a1150a0e1);
   background-position: center;
   background-repeat: no-repeat;
   height: 800px;
 }
 
 .background-3 {
-  background-image: url(/images/flow-icons-bg.png?5fd7ad79fe68eda33d559b4cf97a99e9);
+  background-image: url(../img/flow-icons-bg.png?5fd7ad79fe68eda33d559b4cf97a99e9);
   background-position: center;
   background-repeat: no-repeat;
   height: 500px;
